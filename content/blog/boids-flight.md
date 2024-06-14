@@ -8,7 +8,7 @@ date: 2024-06-24
 
 Developed by Craig Reynolds in 1986, boids is an artificial life program that simulates the flocking behaviour of birds. The program runs in O(n<sup>2</sup>) time complexity and has both 2-dimensional and 3-dimensional variants. In this post, we will learn how to implement boids in 2 dimensions using go and the graphics package (ebiten)[https://pkg.go.dev/github.com/hajimehoshi/ebiten/v2]
 
-![2D boids simple](../../../main/src/img/go-boids.gif)
+![2D boids simple](../../docs/assets/images/go-boids.gif)
 
 ## References
 
