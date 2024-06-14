@@ -266,7 +266,7 @@ To take a screenshot press `S` on your keyboard, while the program is running. Y
 
 The final result:
 
-![Koch curve](../../src/img/fractal.png)
+![Koch curve](../src/img/fractal.png)
 
 Voila! You have now created a Koch Curve in C using raylib. Feel Free to mess around with the code and see what you can come up with.
 
