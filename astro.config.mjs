@@ -30,6 +30,7 @@ if (isBuild) {
 export default defineConfig({
   // server: { port: SERVER_PORT },
   site: LIVE_URL,
+  base: '/kagzgenius.github.io',
   integrations: [
     sitemap(),
     tailwind({
