@@ -7,7 +7,7 @@ date: 2024-06-24
 ## First things first: What are Boids? (Work in progress)
 
 Boids is an artificial life program, developed by Craig Reynolds in 1986, which simulates the flocking behaviour of birds. In this post, we will learn how to implement boids in Go
-![2D boids simple](../../../src/img/go-boids.gif)
+![2D boids simple](../../../kagzgenius.github.io/src/img/go-boids.gif)
 
 ## References
 
