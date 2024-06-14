@@ -82,7 +82,7 @@ return 0;
 ```
 After running the program you should see this output: 
 
-![Hello World](../../src/img/kochCurve.png)
+![Hello World](../../images/screenshot.png)
 
 If you managed to get the above image, congratulations you ran your first raylib program, but our work is not done. Next, we will use our boilerplate code to generate the Koch curve.
 
@@ -117,7 +117,7 @@ double theta = pi / 3;
 As previously mentioned an initiator is a straight line. More important is the generator, which is the result of taking the initiator dividing it into three equal parts and inserting into into it an equilateral triangle without a base. As shown below:
 
 
-![initiator](../../src/img/init-gen.png)
+![initiator](../../images/init-gen.png)
 
 For the main bulk of the `Kochcurve` function begin by writing a conditional that will return true `if (fold > 0)`. With this our recursion will be able to terminate when this condition is false. Inside the conditional we will set points `p3`, `p4` and `p5` these points will calculate the generator, our equilateral triangle with the base removed. Then, we call the recursion `Kochcurve` four times making sure to subtract 1 from folds in each call. Finally if our condtion is false use raylib's `DrawLine()` function to all the lines. Include `BLACK` as the last argument available through raylib. Our final koch curve. Your function should look like this:
 
@@ -266,7 +266,7 @@ To take a screenshot press `S` on your keyboard, while the program is running. Y
 
 The final result:
 
-![Koch curve](../../images/go-boids.gif)
+![Koch curve](../../images/fractal.png)
 
 Voila! You have now created a Koch Curve in C using raylib. Feel Free to mess around with the code and see what you can come up with.
 
